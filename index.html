@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="select.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <select class="old-select">
+    <option value="af">Afrikaans</option>
+    <option value="sq">Shqip</option>
+    <option value="am">አማርኛ</option>
+    <option value="ar">اللغة العربية</option>
+    <option value="hy">Հայերեն</option>
+    <option value="az">Azərbaycanca</option>
+    <option value="eu">Euskara</option>
+    <option value="be">Беларуская мова</option>
+    <option value="bn">বাংলা</option>
+    <option value="bs">Bosanski</option>
+    <option value="bg">български език</option>
+    <option value="ca">Català</option>
+    <option value="ceb">Sinugboanon</option>
+    <option value="ny">Chicheŵa</option>
+    <option value="zh-cn">简体中文</option>
+    <option value="zh-tw">繁體中文</option>
+    <option value="co">Corsu</option>
+    <option value="hr">Hrvatski</option>
+    <option value="cs">čeština</option>
+    <option value="da">dansk</option>
+    <option value="nl">Nederlands</option>
+    <option value="en">English</option>
+    <option value="eo">Esperanto</option>
+    <option value="et">eesti keel</option>
+    <option value="tl">Tagalog</option>
+    <option value="fi">Suomen kieli</option>
+    <option value="fr">français</option>
+    <option value="fy">Frysk</option>
+    <option value="gl">Língua galega</option>
+    <option value="ka">ქართული ენა</option>
+    <option value="de">Deutsch</option>
+    <option value="el">ελληνικά</option>
+    <option value="gu">ગુજરાતી</option>
+    <option value="ht">Kreyòl ayisyen</option>
+    <option value="ha">هَوُسَ</option>
+    <option value="haw">ʻŌlelo Hawaiʻi</option>
+    <option value="iw">עברית</option>
+    <option value="hi">हिंदी</option>
+    <option value="hmn">苗語</option>
+    <option value="hu">magyar nyelv</option>
+    <option value="is">íslenska</option>
+    <option value="ig">Asụsụ Igbo</option>
+    <option value="id">Bahasa Indonesia</option>
+    <option value="ga">Gaeilge</option>
+    <option value="it">Italiano</option>
+    <option value="ja">日本語</option>
+    <option value="jw">Bahasa Jawa</option>
+    <option value="kn">ಕನ್ನಡ</option>
+    <option value="kk">Қазақ</option>
+    <option value="km">ចក្រភពខ្មែរ</option>
+    <option value="ko">한국어</option>
+    <option value="ku">Kurmancî</option>
+    <option value="ky">кыргыз</option>
+    <option value="lo">ພາສາລາວ</option>
+    <option value="la">lingua latina</option>
+    <option value="lv">latviešu valoda</option>
+    <option value="lt">lietuvių kalba</option>
+    <option value="lb">Lëtzebuergesch</option>
+    <option value="mk">Македонски</option>
+    <option value="mg">Malagasy</option>
+    <option value="ms">Bahasa Melayu</option>
+    <option value="ml">മലയാളം</option>
+    <option value="mt">Malti</option>
+    <option value="mi">Te reo Māori</option>
+    <option value="mr">मराठी</option>
+    <option value="mn">Монгол хэл</option>
+    <option value="my">မြန်မာဘာသာ</option>
+    <option value="ne">नेपाली भाषा</option>
+    <option value="no">norsk</option>
+    <option value="ps">paʂto</option>
+    <option value="fa">فارسی‌‎</option>
+    <option value="pl">język</option>
+    <option value="pt">português</option>
+    <option value="pa">ਪੰਜਾਬੀ</option>
+    <option value="ro">limba română</option>
+    <option value="ru">русский язык</option>
+    <option value="sm">Gagana fa'a Sāmoa</option>
+    <option value="gd">Gàidhlig na h-Alba</option>
+    <option value="sr">српски језик</option>
+    <option value="st">Sesotho</option>
+    <option value="sn">chiShona</option>
+    <option value="sd">سنڌي</option>
+    <option value="si">සිංහල</option>
+    <option value="sk">Slovenčina</option>
+    <option value="sl">slovenščina</option>
+    <option value="so">Af Soomaali</option>
+    <option value="es">Castilian</option>
+    <option value="su">Basa Sunda</option>
+    <option value="sw">Kiswahili</option>
+    <option value="sv">svenska</option>
+    <option value="tg">тоҷикӣ</option>
+    <option value="ta">தமிழ்</option>
+    <option value="te">తెలుగు</option>
+    <option value="th">ภาษาไทย</option>
+    <option value="tr">Türkçe</option>
+    <option value="uk">Українська мова</option>
+    <option value="ur">اردو</option>
+    <option value="uz">Oʻzbek tili</option>
+    <option value="vi">Tiếng Việt</option>
+    <option value="cy">Cymraeg</option>
+    <option value="xh">isiXhosa</option>
+    <option value="yi">ייִדיש‎</option>
+    <option value="yo">èdè Yorùbá</option>
+    <option value="zu">isiZulu</option>
+    <option value="fil">Wikang Filipino</option>
+    <option value="he">עברית</option>
+  </select>
+<div class="new-select">
+  <div class="selection">
+    <p>
+            <span></span>
+            <i></i>
+        </p>
+    <span></span>
+  </div>
+</div>
+</body>
+</html>
